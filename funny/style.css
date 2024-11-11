@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+}
+
+.container {
+    max-width: 100%; 
+    height: calc(100vh - 80px); /* Leave space for buttons */
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%; /* Ensure it fills the container */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the container without distortion */
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.button-group {
+    position: fixed; /* Fixes the buttons to the bottom */
+    bottom: 20px; /* Space from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-group button:hover {
+    background-color: #1976D2;
+    transform: translateY(-2px);
+}
+
+.button-group .stop-button {
+    background-color: #f44336;
+}
+
+.button-group .stop-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.modal-content button {
+    background-color: #2196F3;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Keyframes (unchanged) */
+@keyframes fadeIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
