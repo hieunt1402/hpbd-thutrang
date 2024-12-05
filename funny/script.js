@@ -19,7 +19,7 @@ function showConfirmationModal() {
     modalContent.classList.add('modal-content');
     modalContent.innerHTML = `
         <p>Đã bảo đừng tiếp tục rồi!</p>
-        <p><b>Visiting this page implies your acceptance of my having a crush on you <3 </p>
+        <p><b>Thôi thì đã đến đây rồi thì cứ tiếp tục, còn bất ngờ phía sau =)))</p>
         <button id="confirmYes">Vẫn tiếp tục</button>
         <button id="confirmNo">Thôi</button>
     `;

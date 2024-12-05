@@ -9,11 +9,11 @@ const CONFIG = {
     desc: 'Phải chăng em đã say ngay từ lúc thấy nụ cười ấy ',
     btnYes: 'Vẫn cứ là thích anh <33',
     btnNo: 'Không, Anh trai à :3',
-    question:'Biết là em có nhiều vệ tinh xung quanh. Nhưng mà, có quá đáng lắm không nếu ... tôi xin phép cho tôi được thích em???',
+    question:'Úiiiii. Anh biết ngay mà. Có điều gì muốn nói với anh không???',
     btnReply: 'Gửi cho anh <3',
     reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
-    mess: 'Anh biết mà 🥰. Cảm ơn em nhiều 😘😘. Cảm ơn vì đã xem lại =)))',
-    messDesc: 'Tối nay 7h anh qua đón nhé công chúa.',
+    mess: 'Cảm ơn em nhiều 😘😘. Chúc em 1 ngày sinh nhật tuyệt vời bên gia đình =)))',
+    messDesc: 'Tiếc là không đúng thời điểm nên hôm nay thổi nến online vậy em nhé 😜',
     btnAccept: 'Okiiiii lun <3',
     messLink: 'https://www.youtube.com/watch?v=vCK3WSahFPM' 
 }
