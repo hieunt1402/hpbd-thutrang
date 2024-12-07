@@ -12,8 +12,8 @@ const CONFIG = {
     question:'Úiiiii. Anh biết ngay mà. Có điều gì muốn nói với anh không???',
     btnReply: 'Gửi cho anh <3',
     reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
-    mess: 'Cảm ơn em nhiều 😘😘. Chúc em 1 ngày sinh nhật tuyệt vời bên gia đình =)))',
-    messDesc: 'Tiếc là không đúng thời điểm nên hôm nay thổi nến online vậy em nhé 😜',
+    mess: 'Ông trùm mafia internet số 1 phòng IT chúc Trang một ngày tốt lành, 8386, vạn sự như ý, triệu sự như mơ, tỉ sự bất ngờ. Thu Trang mãi đỉnh mãi đỉnh mãi đỉnh =)))',
+    messDesc: 'Tiếc là không đúng thời điểm nên hôm nay không có bất ngờ gì em nhé 😜',
     btnAccept: 'Okiiiii lun <3',
     messLink: 'https://www.youtube.com/watch?v=vCK3WSahFPM' 
 }
